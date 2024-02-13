@@ -1,0 +1,33 @@
+[project]
+name = "rnnDesign"
+version = "0.1"
+description = "Testbed for RNN models of NHP tasks. Focusing on impact of input design (including injected noise) and loss functions."
+authors = [
+    {"name" = "Kenneth Latimer", "email" = "latimerkw@gmail.com"}
+]
+license = {"file" = "LICENSE"}
+readme = "README.md"
+requires-python = ">3.10"
+
+
+# Requirements
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "torch"
+]
+
+[build-system]
+requires = [
+    "setuptools"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project.urls]
+homepage = "https://github.com/latimerk/rnnDesign/"
+repository = "https://github.com/latimerk/rnnDesign/"
+documentation = "https://github.com/latimerk/rnnDesign/"
